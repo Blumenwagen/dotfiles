@@ -32,11 +32,4 @@ source = $hl/keybinds.conf
 exec = mkdir -p $cConf && touch -a $cConf/hypr-user.conf
 source = $cConf/hypr-user.conf
 
-plugin {
-    hyprscrolling {
-        # If there is only one window, make it 100% width
-        focus_fit_method = 1
-    }
-}
 
-#exec-once = hyprpm reload -n
